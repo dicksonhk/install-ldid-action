@@ -9,7 +9,8 @@ inputs:
     default: ProcursusTeam/ldid
   tag:
     description: Github Release Tag to use
-    required: true
+    required: false
+    default: latest
 runs:
   using: "composite"
   steps:
