@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: MOZGIII/install-ldid-action@<action-version>
         with:
-          tag: v2.1.5-procursus2
+          tag: v2.1.5-procursus2 # optional, defaults to the latest release
       - run: ldid
 ```
 
